@@ -1,301 +1,270 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>My SHIT</title>
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-       <link rel="stylesheet" href="styles.css" type="text/css" />
-       <!-- Animate CSS -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
-       <!-- WOW JS -->
-       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-       <script type="text/javascript">
-           new WOW().init();
-       </script>
-    </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<!--NAVIGATION-->
+<!--div#idname.classname>div (Shortcut)-->
 
-<div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!--jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!--Wow.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>/*global WOW*/
+            new WOW().init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!--bootstrap-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!--javascript-->
+        
+    </div>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <a href="#" class="navbar-brand">Media</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#pricing">pricing</a></li>
-                <li><a href="#team">team</a></li>
-                <li><a href="#client">clients</a></li>
-                <li><a href="#contact">contact</a></li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class=nav-item>
+                    <a class="nav-link" href="#header">Home</a>
+                </li>
+                <li class=nav-item>
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class=nav-item>
+                    <a class="nav-link" href="#team">Meet our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#getinvolved">Get Involved</a>
+                </li>
+                <li class=nav-item>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class=nav-item>
+                    <a class="nav-link" href="#donate">Donate</a>
+                </li>
             </ul>
         </div>
+    </nav>
+    <!--Header-->
+    <div id="header" class="header">
+        <div class="slideshow-container">
+            <div class="myimages">
+                <img src="https://www.cicis.com/media/1149/pizza_trad_cheese.png">
+            </div>
+            <div class="myimages">
+                <img src="https://www.cicis.com/media/1243/pizza_adven_zestypepperoni.png">
+            </div>
+            <div class="myimages">
+                <img src="https://www.cicis.com/media/1145/pizza_adven_maccheese.png">
+            </div>
+        </div>
+    </div><br><br><br><br><br>
+    <!--About us-->
+    <div id="about" class="about">
+        <div class="container">
+            <h2>About us</h2>
+            <p>An organization dedicated to loving pizza.</p>
+            <hr>
+            <h3>Our Work</h3>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <i class="fa fa-credit-card fa-spin" aria-hidden="true"></i>
+                    <span><strong>Prices</strong></span>
+                    <p>We have been deciated to selling pizza at a low price. Our prices have stayed the same over the last 5 years and we are determined to keep it that way.</p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <i class="fa fa-check-square fa-spin" aria-hidden="true"></i>
+                    <span><strong>Ratings</strong></span>
+                    <p>Our company has maintained a 96% approval rating among the past 10 years. We have a major importance on integrity that is demonstrated throughout our employees and our company goals.</p>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fa fa-calendar fa-spin" aria-hidden="true"></i>
+                        <span><strong>Upcoming Announcements</strong></span>
+                        <p>Starting on December 1st, we will be collecting money for the Salvation Army. For every $1 we make, 10 cents will go to them. This contribution along with volunteer work demonstrates our company's goals.
+                            <br> Starting on March 3rd, we will be hiring interns for the Summer Projects.Submit applications prior to this date! <a href="https://goo.gl/forms/73lv0kmzdlqXh5l82">Apply here.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<!--- Header -->
- 
- <div id="header" class="header">
-     <div class="container">
-         <div class="row">
-             <div class="col-lg-6 col-md-6">
-                 <h1>Responsive Web Design</h1>
-                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-                 <button class="btn btn-lg btn-primary">Buy Now</button>
-                 <button class="btn btn-lg btn-success">View Detail</button>
-             </div>
-             <div class="col-lg-6 col-md-6">
-                 <img src="https://raw.githubusercontent.com/hasratsabit/landing-page/master/images/Responsive-Web-Design.png">
-             </div>
-         </div>
-     </div>
- </div>
-  <!-- About Us -->
-  <div id="about" class="about">
-      <div class="container">
-          <h2>About Us</h2>
-          <p>
-              fhwifhrwg
-          </p>
-          <hr>
-          <h3>Our Work</h3>
-          <div class="row">
-              <div class="col-lg-6-sm-6">
-                  <i class="fas fa-seedling" aria-hidden="true"></i>
-                  <span><strong>Climate</strong></span>
-                  <p>FRWIGIBWGI</p>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                  <i class="fas fa-seedling" aria-hidden="true"></i>
-                  <span><strong>Oceans</strong></span>
-                  <p>hrurgu</p>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                  <i class="fas fa-seedling" aria-hidden="true">
-                  </i>
-                  <span><strong>Land</strong></span>
-                  <p>hfwiw</p>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                  <i class="fas fa-seedling" aria-hidden="true"></i>
-                  <span><strong>Cities</strong></strong></span>
-                  <p>hrurgu</p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- TEAM WALKTHROUGH -->
-  <div id="team" class="team">
-      <div class="container">
-          <h2>Our Team</h2>
-          <div class="row">
-              <div class="col-lg-4 col-md-4">
-                  <img src="https://pbs.twimg.com/media/C_Ug5C2UAAA12xh.jpg"
-                 class="rounded-circle"></img> 
-              </div>
-              <div class="col-lg-8 col-md-8">
-                  <h3>Name</h3>
-                  <h4>Founder</h4>
-                  <p>
-                      rhavurvvafseirey
-                  </p>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-4 col-md-4">
-                  <img src="https://pbs.twimg.com/media/C_Ug5C2UAAA12xh.jpg"
-                 class="rounded-circle"></img> 
-              </div>
-              <div class="col-lg-8 col-md-8">
-                  <h3>Name</h3>
-                  <h4>Founder</h4>
-                  <p>
-                      rhavurvvafseirey
-                  </p>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-4 col-md-4">
-                  <img src="https://pbs.twimg.com/media/C_Ug5C2UAAA12xh.jpg"
-                 class="rounded-circle"></img> 
-              </div>
-              <div class="col-lg-8 col-md-8">
-                  <h3>Name</h3>
-                  <h4>Founder</h4>
-                  <p>
-                      rhavurvvafseirey
-                  </p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Contact -->
-  <div id="contact" class="contact">
-      <div class="container">
-          <h2>Contact Us</h2>
-          <div class="row">
-              <div class="col-lg-6 col-md-6">
-                  
-              </div>
-              <div class="col-lg-6 col-md-6">
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Contact -->
-  <div id="contact" class="contact">
-      <div class="container">
-          <h2>Contact Us</h2>
-          <div class="row">
-              <div class="col-lg-6 col-md-6">
-                  <div class="input-group input-group-lg">
-                      <div class="input-group-prepend">
-                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-user" aria-hidden="true"></i></span>
-                      </div>
-                      <input type="text" class="form-control" aria-describedly="sizing-addon-1" placeholder="Full Name"/>
-                  </div>
-                  <div class="input-group input-group-lg">
-                      <div class="input-group-prepend">
-                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope" aria-hidden="true"></i></span>
-                      </div>
-                      <input type="text" class="form-control" aria-describedly="sizing-addon-1" placeholder="Email"/>
-                  </div>
-                  <div class="input-group input-group-lg">
-                      <div class="input-group-prepend">
-                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone" aria-hidden="true"></i></span>
-                      </div>
-                      <input type="text" class="form-control" aria-describedly="sizing-addon-1" placeholder="Phone"/>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                     <div class="input-group">
-                         <textarea cols="80" rows="6" class="form-control-message"></textarea>
-                     </div>
-                     <button class="btn btn-primary btn-block" type="button">Submit</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
- 
-  <div class="donate" id="donate">
-      <div class="container">
-          <h2>Donate</h2>
-          <div class="row justify-content-center">
-              <div class="col-lg-6 col-md-6">
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$25</button>
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$50</button>
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$100</button>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="donate" id="donate">
-      <div class="container">
-          <h2>Donate</h2>
-          <div class="row justify-content-center">
-              <div class="col-lg-6 col-md-6">
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$250</button>
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$500</button>
-                  <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$1000</button>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-6">
-          <input type="text" class="form-control" placeholder="$" aria-label="" aria-describedly="basic-addon1">
-          <div class="input-group-append">
-              <button class="btn btn-primary" type="button">Donate</button>
-          </div>
-      </div>
-  </div>
-  <div class="footer" id="footer">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-4 col-md-4">
-                  <h4>Conract</h4>
-                  <p><i class="fa fa-home"></i> 1234 This Street my City, out City 12345</p>
-                  <p><i class="fa fa-envelope"></i> hello@company.org</p>
-                  <p><i class="fa fa-phone"></i> (636) 123-4567</p>
-                  <p><i class="fa fa-globe"></i> wwww.thisCompany.org</p>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                  <h4>About</h4>
-                  <p>About Us</p>
-                  <p>Privacy</p>
-                  <p>Terms and Conditions</p>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                  <h4>Social Media</h4>
-                  <p>
-                      <i class="fab fa-facebook-sqaure"></i>
-                      <i class="fab fa-twitter-square"></i>
-                      <i class="fab fa-linkedin"></i>
-                  </p>
-                  <input type="text" class="form-control" placeholder="Email Adresss" aria label="" aria-describedly="basic-addon1"/>
-                  <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">subscribe</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div id="getinvolved" class="getinvolved">
-     <div class="container">
-         <h2>Get Involved</h2>
-         <div class="row">
-             <div class="col-lg-4 col-md-4 wow flipInY">
-                 <div class="options">
-                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                     <h3>Explore</h3>
-                     <p>hfbruiegb</p>
-                     <button class="btn btn-success">Visit</button>
-                 </div>
-             </div>
-             <div class="col-lg-4 col-md-4 wow flipInY">
-                 <div class="options">
-                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                     <h3>Volunteer</h3>
-                     <p>hfbruiegb</p>
-                     <button class="btn btn-success">Sign Up</button>
-                 </div>
-         </div>
-         <div class="col-lg-4 col-md-4 wow flipInY">
-                 <div class="options">
-                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                     <h3>Give</h3>
-                     <p>hfbruiegb</p>
-                     <button class="btn btn-success">Donate</button>
-                 </div>
-     </div>
-  </div>
-<ol start="1" type="I" reversed> <!-- start used to set values -->
-            <li>I am free</li>
-            <li>I am loved</li>
-            <li>My corner is not empty</li>
-        </ol>
-        <center>
-            <a href="www.google.com">Respect me</a>
-            </center>
-        <hr>
-    
-       <br> <center>
-           <img src="https://i.pinimg.com/originals/21/0e/c0/210ec0df5ea5e51ebad1edb9deb88096.jpg"></img>
-        </center>
-        <br> <center>
-            <button>Respect my values</button>
-            </center>
-    
-    </body>
+    <!--Team-->
+    <div id="team" class="team">
+        <div class="container">
+            <h2> Our Team</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350" height="80%" class="rounded-circle"></img>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h3>Name</h3>
+                    <h4>Founder</h4>
+                    <p>Got stuff dun...</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350" height="80%" class="rounded-circle"></img>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h3>Name</h3>
+                    <h4>Worker</h4>
+                    <p>Did stuff.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350" height="80%" class="rounded-circle"></img>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h3>Name</h3>
+                    <h4>President</h4>
+                    <p>Runs stuff.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--get involved-->
+    <div id="getinvolved" class="getinvolved">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay=".5s">
+                    <div class="options">
+                        <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                        <h3>Explore</h3>
+                        <p>We were founded in the late 1900s and strive to improve pizza in our nation.</p><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="1s">
+                    <div class="options">
+                        <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                        <h3>Volunteer</h3>
+                        <p>Check back here for volunteer options at one of our public fundraisers!</p><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="1.5s">
+                    <div class="options">
+                        <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+                        <h3>Give</h3>
+                        <p>CLick donate to donate money or contact us at (347)838-0586 to give item donations! Anything in new condition will be reviewed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div id="contact" class="contact">
+        <div class="container">
+            <h2>Contact us</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Full Name" />
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Email" />
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-mobile-alt" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Phone Number" />
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group">
+                        <textarea cols="80" rows="6" class="form-control-message">Type something here...</textarea>
+                    </div>
+                    <button class="btn btn-primary btn-black" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Donate-->
+    <div class="donate" id="donate">
+        <div class="container">
+            <h2>Donate</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$25</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$50</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$100</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$250</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$500</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$1000</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <input type="text" class="form-control" placeholder="$" area-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Donate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer" id="footer">
+        <div class="containter">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <br><br>
+                    <h4>Contact</h4>
+                    <p><i class="fa fa-home"></i>10 E 21st Street New York,NY</p>
+                    <p><i class="fa fa-envelope"></i>Kaylanieto01@gmail.com</p>
+                    <p><i class="fa fa-phone"></i>(347) 838 0586</p>
+                    <p><i class="fa fa-globe"></i> www.Google.com</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <br><br>
+                    <h4>About</h4>
+                    <p>About us</p>
+                    <p>Privacy</p>
+                    <p>Terms and Conditions</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <br><br>
+                    <h4>Social Media</h4>
+                    <p>
+                        <i class="fab fa-facebook square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram"></i>
+                    </p>
+                    <input type="text" class="form-control" placeholder="Email Address" aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
 </html>

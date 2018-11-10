@@ -4,7 +4,7 @@
 }
 body{
     overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-rendering: optimizeLegibility !important;
 }
 a {
@@ -90,4 +90,64 @@ p {
 }
 .team p {
     color: #737373;
+}
+/* Get involved*/
+.getinvolved {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #5cb85c;
+    margin-top: 50px;
+}
+.getinvolved h2{
+    color: #fff;
+}
+.getinvolved .options {
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.getinvolved i {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+/* CONTACT */
+.contact {
+    background-color: #fff;
+    margin-top: 20px;
+}
+.contact .message {
+    height: 100px;
+    margin-bottom: 5px;
+}
+/*Footer */
+.footer {
+    background-color: #fff;
+    margin-top: 20px;
+}
+.footer .btn {
+    margin-top: 5px;
+}
+.footer i {
+    font-size: 20px;
+}
+/*DONATE*/
+.donate {
+    background-color: #fff;
+    margin-top: 20px;
+}
+.donate button {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+.donate .btn:hover {
+    background-color: #428bca !important;
+    color: #fff !important;
+}
+.donate .form-control {
+    width: 330px;
+    padding: 10px;
+    margin: 5px;
 }
